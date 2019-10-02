@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600BC29B2339CC0400E6C910 /* IMG_4866.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 600BC29A2339CC0400E6C910 /* IMG_4866.jpeg */; };
+		6058D2D0233A9AB500A2D777 /* 11378.igo in Resources */ = {isa = PBXBuildFile; fileRef = 6058D2CF233A96C500A2D777 /* 11378.igo */; };
 		60627B662339C1C0007149EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60627B652339C1C0007149EE /* AppDelegate.swift */; };
 		60627B682339C1C0007149EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60627B672339C1C0007149EE /* ViewController.swift */; };
 		60627B6B2339C1C0007149EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60627B692339C1C0007149EE /* Main.storyboard */; };
 		60627B6D2339C1C2007149EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60627B6C2339C1C2007149EE /* Assets.xcassets */; };
 		60627B702339C1C2007149EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60627B6E2339C1C2007149EE /* LaunchScreen.storyboard */; };
+		60627B782339C2DD007149EE /* 11378.ig in Resources */ = {isa = PBXBuildFile; fileRef = 60627B772339C1EB007149EE /* 11378.ig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		600BC29A2339CC0400E6C910 /* IMG_4866.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4866.jpeg; sourceTree = "<group>"; };
+		6058D2CF233A96C500A2D777 /* 11378.igo */ = {isa = PBXFileReference; lastKnownFileType = file; path = 11378.igo; sourceTree = "<group>"; };
 		60627B622339C1C0007149EE /* share12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = share12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60627B652339C1C0007149EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60627B672339C1C0007149EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		60627B6C2339C1C2007149EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60627B6F2339C1C2007149EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60627B712339C1C2007149EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60627B772339C1EB007149EE /* 11378.ig */ = {isa = PBXFileReference; lastKnownFileType = file; path = 11378.ig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				60627B692339C1C0007149EE /* Main.storyboard */,
 				60627B6C2339C1C2007149EE /* Assets.xcassets */,
 				60627B6E2339C1C2007149EE /* LaunchScreen.storyboard */,
+				600BC29A2339CC0400E6C910 /* IMG_4866.jpeg */,
+				60627B772339C1EB007149EE /* 11378.ig */,
+				6058D2CF233A96C500A2D777 /* 11378.igo */,
 				60627B712339C1C2007149EE /* Info.plist */,
 			);
 			path = share12;
@@ -124,6 +133,9 @@
 			files = (
 				60627B702339C1C2007149EE /* LaunchScreen.storyboard in Resources */,
 				60627B6D2339C1C2007149EE /* Assets.xcassets in Resources */,
+				6058D2D0233A9AB500A2D777 /* 11378.igo in Resources */,
+				60627B782339C2DD007149EE /* 11378.ig in Resources */,
+				600BC29B2339CC0400E6C910 /* IMG_4866.jpeg in Resources */,
 				60627B6B2339C1C0007149EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q69K9367Q;
 				INFOPLIST_FILE = share12/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q69K9367Q;
 				INFOPLIST_FILE = share12/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

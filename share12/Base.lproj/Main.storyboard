@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,51 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="share12" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqO-wz-vae">
+                                <rect key="frame" x="192" y="437" width="30" height="30"/>
+                                <state key="normal" title="IG"/>
+                                <connections>
+                                    <action selector="shareIGfile" destination="BYZ-38-t0r" eventType="touchUpInside" id="DsG-Vr-CN7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xf9-3r-ofU">
+                                <rect key="frame" x="188.5" y="506" width="37" height="30"/>
+                                <state key="normal" title="JPEG"/>
+                                <connections>
+                                    <action selector="shareJPEGfile" destination="BYZ-38-t0r" eventType="touchUpInside" id="iJi-Tl-RHa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1n-Am-cJC">
+                                <rect key="frame" x="192" y="381" width="30" height="30"/>
+                                <state key="normal" title="IGO"/>
+                                <connections>
+                                    <action selector="shareIGOfile" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zk2-HT-hN8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="y1n-Am-cJC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6oE-bV-jGe"/>
+                            <constraint firstItem="qqO-wz-vae" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="DRQ-hW-iFf"/>
+                            <constraint firstItem="qqO-wz-vae" firstAttribute="top" secondItem="y1n-Am-cJC" secondAttribute="bottom" constant="26" id="Ktr-I8-NU5"/>
+                            <constraint firstItem="qqO-wz-vae" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="cFK-eb-108"/>
+                            <constraint firstItem="Xf9-3r-ofU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fwn-ok-wwI"/>
+                            <constraint firstItem="Xf9-3r-ofU" firstAttribute="top" secondItem="qqO-wz-vae" secondAttribute="bottom" constant="38" id="u6V-db-rwl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="qqO-wz-vae" id="YTM-zz-2SI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="85.714285714285708"/>
         </scene>
     </scenes>
 </document>
